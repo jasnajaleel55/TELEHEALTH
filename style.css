@@ -1,50 +1,89 @@
 body {
-    font-family: Arial;
-    background-color: #f5faff;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f9fd;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.profile-header {
+    text-align: center;
+    background-color: #e6f2fb;
     padding: 20px;
-}
-
-h1, h2 {
-    color: #1e88e5;
-}
-
-.emergency-alert {
-    background-color: #ffe5e5;
-    color: #b00020;
-    font-weight: bold;
-    padding: 15px;
     border-radius: 6px;
-    border-left: 6px solid #d32f2f;
-    margin-bottom: 30px;
 }
+
+.profile-header h1 {
+    margin: 0;
+    color: #0a4d8c;
+}
+
+.profile-header p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+.doctor-info {
+    margin-top: 25px;
+}
+
+.doctor-info h2 {
+    color: #0a4d8c;
+    border-bottom: 2px solid #cfe5f6;
+    padding-bottom: 5px;
+}
+
+.appointments {
+    margin-top: 30px;
+}
+
+.appointments h2 {
+    color: #0a4d8c;
+    margin-bottom: 10px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
 }
 
-th {
-    background: #1e88e5;
+table thead {
+    background-color: #0a4d8c;
     color: white;
 }
 
-th, td {
-    padding: 8px;
-    border: 1px solid #ddd;
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #d9e6f2;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f2f8fd;
 }
 
 .emergency {
-    color: red;
-    font-weight: bold;
-    margin: 15px 0;
+    margin-top: 30px;
+    padding: 15px;
+    border: 2px solid #d9534f;
+    background-color: #fdecea;
+    border-radius: 6px;
 }
 
-.available {
-    color: green;
+.emergency h2 {
+    color: #d9534f;
     font-weight: bold;
 }
 
-.booked {
-    color: red;
+.emergency p {
+    color: #b52b27;
     font-weight: bold;
 }
