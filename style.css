@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    background-color: #f5faff;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #1e88e5;
+}
+
+.emergency-alert {
+    background-color: #ffe5e5;
+    color: #b00020;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 6px solid #d32f2f;
+    margin-bottom: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+th {
+    background: #1e88e5;
+    color: white;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.emergency {
+    color: red;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.available {
+    color: green;
+    font-weight: bold;
+}
+
+.booked {
+    color: red;
+    font-weight: bold;
+}
