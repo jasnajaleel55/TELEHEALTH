@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f9fd;
@@ -86,4 +87,38 @@ table tbody tr:nth-child(even) {
 .emergency p {
     color: #b52b27;
     font-weight: bold;
+=======
+    font-family: Arial;
+    background-color: #eaf4ff;
+}
+
+h1, h2 {
+    color: blue;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: lightblue;
+}
+
+.emergency {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: #ffdede;
+}
+
+.emergency h3 {
+    color: red;
+>>>>>>> 9b182e382e7d1e32ae2b2089655c94d4a91b1057
 }
